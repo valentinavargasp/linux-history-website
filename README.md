@@ -98,7 +98,7 @@ Este proyecto presenta un análisis académico completo sobre **GNU/Linux**, des
 
 ## 📁 Estructura del Proyecto
 
-\`\`\`
+`\``
 linux-trabajo-practico/
 ├── app/
 │   ├── globals.css          # Estilos globales
@@ -122,7 +122,7 @@ linux-trabajo-practico/
 ├── README.md                # Este archivo
 ├── package.json             # Dependencias del proyecto
 └── tailwind.config.ts       # Configuración de Tailwind
-\`\`\`
+\``\`
 
 ---
 
