@@ -193,6 +193,3 @@ Agradecemos especialmente a:
 **¡Viva Linux! 🐧**
 
 ---
-
-¿Querés que le agregue una sección de licencias o contribuciones?
-
