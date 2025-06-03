@@ -124,53 +124,56 @@ linux-trabajo-practico/
 └── tailwind.config.ts       # Configuración de Tailwind
 ```
 
----
-
 ## 🚀 Instalación y Ejecución
 
 ### Prerrequisitos
-- Node.js 18.0 o superior
-- npm, yarn, pnpm o bun
+
+* Node.js 18.0 o superior
+* npm, yarn, pnpm o bun
 
 ### Pasos de Instalación
 
 1. **Clonar el repositorio**
-`bash
-git clone https://github.com/usuario/linux-trabajo-practico.git
-cd linux-trabajo-practico
-`
+
+   ```bash
+   git clone https://github.com/usuario/linux-trabajo-practico.git
+   cd linux-trabajo-practico
+   ```
 
 2. **Instalar dependencias**
+
    ```bash
-npm install
-# o
-yarn install
-# o
-pnpm install
-```
+   npm install
+   # o
+   yarn install
+   # o
+   pnpm install
+   ```
 
 3. **Ejecutar en modo desarrollo**
-\`\`\`bash
-npm run dev
-# o
-yarn dev
-# o
-pnpm dev
-\`\`\`
+
+   ```bash
+   npm run dev
+   # o
+   yarn dev
+   # o
+   pnpm dev
+   ```
 
 4. **Abrir en el navegador**
-\`\`\`
-http://localhost:3000
-\`\`\`
+
+   ```
+   http://localhost:3000
+   ```
 
 ### Scripts Disponibles
 
-\`\`\`bash
+```bash
 npm run dev      # Ejecutar en modo desarrollo
 npm run build    # Construir para producción
 npm run start    # Ejecutar versión de producción
 npm run lint     # Verificar código con ESLint
-\`\`\`
+```
 
 ---
 
@@ -178,13 +181,18 @@ npm run lint     # Verificar código con ESLint
 
 Agradecemos especialmente a:
 
-- **Linus Torvalds** y la comunidad Linux por crear y mantener este extraordinario sistema operativo
-- **Profesor de SO2** por la guía y orientación académica
-- **Comunidad open source** por las herramientas utilizadas en el desarrollo
-- **Autores y investigadores** cuyas obras fundamentaron nuestro análisis
+* **Linus Torvalds** y la comunidad Linux por crear y mantener este extraordinario sistema operativo
+* **Profesor de SO2** por la guía y orientación académica
+* **Comunidad open source** por las herramientas utilizadas en el desarrollo
+* **Autores y investigadores** cuyas obras fundamentaron nuestro análisis
 
 ---
 
-*"El software es como el sexo: es mejor cuando es libre"* - Linus Torvalds
+> *"El software es como el sexo: es mejor cuando es libre"* – Linus Torvalds
 
 **¡Viva Linux! 🐧**
+
+---
+
+¿Querés que le agregue una sección de licencias o contribuciones?
+
