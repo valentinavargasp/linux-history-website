@@ -135,19 +135,19 @@ linux-trabajo-practico/
 ### Pasos de Instalación
 
 1. **Clonar el repositorio**
-\`\`\`bash
+`bash
 git clone https://github.com/usuario/linux-trabajo-practico.git
 cd linux-trabajo-practico
-\`\`\`
+`
 
 2. **Instalar dependencias**
-\`\`\`bash
+   ```bash
 npm install
 # o
 yarn install
 # o
 pnpm install
-\`\`\`
+```
 
 3. **Ejecutar en modo desarrollo**
 \`\`\`bash
