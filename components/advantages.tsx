@@ -74,7 +74,6 @@ example: [
     "1. Estudiar cómo funciona el programa y modificarlo según las necesidades.",
     "2. Redistribuir copias exactas para ayudar a otros.",
     "3. Distribuir copias de versiones modificadas para beneficiar a la comunidad.",
-    "Ejemplo práctico: El gobierno de Múnich migró 15.000 computadoras a Linux, ahorrando más de €10 millones en licencias y permitiendo desarrollar soluciones personalizadas para la administración pública."
   ]
 }
 
