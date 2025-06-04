@@ -4,30 +4,18 @@ import { BookOpen, ExternalLink } from "lucide-react"
 export function Bibliography() {
   const references = [
     {
-      category: "Libros Fundamentales",
-      items: [
-        "Silberschatz, A., Galvin, P. B., & Gagne, G. (2018). Operating System Concepts (10th ed.). John Wiley & Sons.",
-        "Tanenbaum, A. S., & Bos, H. (2014). Modern Operating Systems (4th ed.). Pearson.",
-        "Love, R. (2010). Linux Kernel Development (3rd ed.). Addison-Wesley Professional.",
-        "Negus, C. (2012). Linux Bible (8th ed.). John Wiley & Sons.",
-        "Stallman, R. (2002). Free Software, Free Society: Selected Essays. GNU Press.",
-      ],
-    },
-    {
-      category: "Historia y Filosofía",
-      items: [
-        "Torvalds, L., & Diamond, D. (2001). Just for Fun: The Story of an Accidental Revolutionary. HarperBusiness.",
-        "Raymond, E. S. (1999). The Cathedral and the Bazaar: Musings on Linux and Open Source. O'Reilly Media.",
-        "Weber, S. (2004). The Success of Open Source. Harvard University Press.",
-        "Lefebvre, C. (2018). Linux Mint: Complete Guide. Linux Mint Documentation Team.",
-      ],
-    },
-    {
       category: "Computación de Alto Rendimiento",
       items: [
         "Dongarra, J., Sterling, T., Simon, H., & Strohmaier, E. (2003). High-Performance Computing: Clusters, Constellations, MPPs, and Future Directions. Computing in Science & Engineering, 7(2), 51-59.",
         "Sterling, T., Anderson, M., & Brodowicz, M. (2018). High Performance Computing: Modern Systems and Practices. Morgan Kaufmann.",
         "Reed, D. A., & Dongarra, J. (2015). Exascale computing and big data. Communications of the ACM, 58(7), 56-68.",
+      ],
+    },
+    {
+      category: "Aplicaciones de Desarrollo Web",
+      items: [
+        "https://www.sudosu.com.ar/linux/herramientas-desarrollo/",
+        ""
       ],
     },
     {
@@ -75,47 +63,8 @@ export function Bibliography() {
           Bibliografía
         </h2>
         <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-          Referencias académicas y fuentes especializadas utilizadas en este trabajo
+          Fuentes especializadas utilizadas en este trabajo
         </p>
-      </div>
-
-      {/* Academic sources visual */}
-      <div className="mb-12 bg-gradient-to-r from-blue-50 to-purple-50 p-8 rounded-lg">
-        <h3 className="text-xl font-bold mb-6 text-center text-slate-800">Fuentes Académicas de Prestigio</h3>
-        <div className="grid md:grid-cols-4 gap-6">
-          <div className="text-center p-4 bg-white rounded-lg shadow-sm">
-            <img
-              src="/placeholder.svg?height=80&width=120"
-              alt="MIT Press academic publisher logo"
-              className="h-12 w-16 mx-auto mb-2 object-contain"
-            />
-            <span className="text-sm font-medium text-slate-700">MIT Press</span>
-          </div>
-          <div className="text-center p-4 bg-white rounded-lg shadow-sm">
-            <img
-              src="/placeholder.svg?height=80&width=120"
-              alt="O'Reilly Media technical publisher logo"
-              className="h-12 w-16 mx-auto mb-2 object-contain"
-            />
-            <span className="text-sm font-medium text-slate-700">O'Reilly Media</span>
-          </div>
-          <div className="text-center p-4 bg-white rounded-lg shadow-sm">
-            <img
-              src="/placeholder.svg?height=80&width=120"
-              alt="IEEE Computer Society logo"
-              className="h-12 w-16 mx-auto mb-2 object-contain"
-            />
-            <span className="text-sm font-medium text-slate-700">IEEE</span>
-          </div>
-          <div className="text-center p-4 bg-white rounded-lg shadow-sm">
-            <img
-              src="/placeholder.svg?height=80&width=120"
-              alt="ACM Association for Computing Machinery logo"
-              className="h-12 w-16 mx-auto mb-2 object-contain"
-            />
-            <span className="text-sm font-medium text-slate-700">ACM</span>
-          </div>
-        </div>
       </div>
 
       <div className="space-y-8">
@@ -143,18 +92,6 @@ export function Bibliography() {
         ))}
       </div>
 
-      <div className="mt-12 bg-blue-50 p-8 rounded-lg border-l-4 border-blue-500">
-        <h3 className="text-xl font-bold mb-4 text-blue-800">Nota sobre las Fuentes</h3>
-        <p className="text-slate-700 mb-4">
-          Este trabajo práctico se basa en fuentes académicas reconocidas, documentación oficial, y estadísticas
-          actualizadas de organizaciones líderes en tecnología. Se ha priorizado la inclusión de referencias que
-          combinen rigor académico con relevancia práctica.
-        </p>
-        <p className="text-slate-700">
-          Las estadísticas y datos técnicos han sido verificados con múltiples fuentes para garantizar su precisión y
-          actualidad al momento de la elaboración de este documento.
-        </p>
-      </div>
     </section>
   )
 }

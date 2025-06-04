@@ -183,7 +183,7 @@ export function Applications() {
           </div>
           <div className="text-center">
             <img
-              src="https://images.unsplash.com/photo-1581093458791-9f3c3cf9d428?w=400&h=300&fit=crop"
+              src="https://images.unsplash.com/photo-1677108167538-f34574c6c651?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="CERN Large Hadron Collider control systems"
               className="w-full h-32 object-cover rounded-lg shadow-md mb-3"
             />
@@ -191,99 +191,6 @@ export function Applications() {
             <p className="text-slate-600 text-xs">
               Analiza colisiones de partículas con una grid de 170 centros de datos Linux
             </p>
-          </div>
-        </div>
-      </div>
-
-      <div className="mt-12 bg-slate-100 p-8 rounded-lg">
-        <h3 className="text-2xl font-bold mb-6 text-slate-800">Análisis Teórico de Aplicaciones</h3>
-
-        <div className="space-y-6">
-          <div className="bg-white p-6 rounded-lg shadow-sm">
-            <h4 className="text-xl font-semibold mb-3 text-blue-800 flex items-center">
-              <Code className="h-6 w-6 mr-2" />
-              Desarrollo Web en Linux
-            </h4>
-            <p className="text-slate-700 mb-3">
-              Según Gourley y Totty (2002), Linux domina el desarrollo web debido a su stack LAMP, que ofrece una
-              solución completa y gratuita. El modelo de desarrollo ágil se beneficia de herramientas como Git
-              (desarrollado por Linus Torvalds) y contenedores Docker.
-            </p>
-            <div className="bg-blue-50 p-4 rounded border-l-4 border-blue-500">
-              <strong>Caso Práctico: WordPress.com</strong>
-              <p className="mt-2 text-blue-800">
-                Automattic, la empresa detrás de WordPress.com, utiliza una infraestructura Linux para servir más de 20
-                mil millones de páginas mensuales. Su arquitectura incluye:
-              </p>
-              <ul className="mt-2 space-y-1 text-sm text-blue-700">
-                <li>• Más de 1,200 servidores Nginx en Linux distribuyendo el tráfico</li>
-                <li>• Clusters de MariaDB con optimizaciones específicas del kernel Linux para E/S</li>
-                <li>• Sistema de caché distribuido basado en Memcached en Linux</li>
-                <li>• Procesamiento de imágenes con herramientas de código abierto como ImageMagick</li>
-              </ul>
-              <p className="mt-2 text-blue-800">
-                Esta infraestructura les permite manejar picos de tráfico de hasta 15,000 solicitudes por segundo sin
-                degradación del servicio, algo que sería prohibitivamente costoso con soluciones propietarias.
-              </p>
-            </div>
-          </div>
-
-          <div className="bg-white p-6 rounded-lg shadow-sm">
-            <h4 className="text-xl font-semibold mb-3 text-red-800 flex items-center">
-              <Lock className="h-6 w-6 mr-2" />
-              Ciberseguridad y Linux
-            </h4>
-            <p className="text-slate-700 mb-3">
-              McClure et al. (2012) explican que Linux es preferido en ciberseguridad por su transparencia del código
-              fuente, permitiendo auditorías completas. Las herramientas como Nmap, desarrolladas nativamente para
-              Unix/Linux, aprovechan las capacidades de red de bajo nivel del kernel.
-            </p>
-            <div className="bg-red-50 p-4 rounded border-l-4 border-red-500">
-              <strong>Caso Práctico: Equipo de Respuesta a Incidentes</strong>
-              <p className="mt-2 text-red-800">
-                Durante la investigación del ataque a SolarWinds en 2020, los equipos CERT utilizaron una suite de
-                herramientas Linux para:
-              </p>
-              <ul className="mt-2 space-y-1 text-sm text-red-700">
-                <li>• Análisis forense de memoria con Volatility, identificando procesos maliciosos ocultos</li>
-                <li>• Reconstrucción de tráfico de red con Wireshark, revelando comunicaciones con servidores C&C</li>
-                <li>• Análisis de malware en sandbox aislados basados en KVM</li>
-                <li>• Correlación de logs con ELK Stack, identificando patrones de compromiso en múltiples sistemas</li>
-              </ul>
-              <p className="mt-2 text-red-800">
-                La flexibilidad de Linux permitió desarrollar herramientas personalizadas para detectar las técnicas
-                específicas utilizadas en este ataque APT, algo imposible con herramientas comerciales cerradas.
-              </p>
-            </div>
-          </div>
-
-          <div className="bg-white p-6 rounded-lg shadow-sm">
-            <h4 className="text-xl font-semibold mb-3 text-green-800 flex items-center">
-              <Microscope className="h-6 w-6 mr-2" />
-              Computación Científica
-            </h4>
-            <p className="text-slate-700 mb-3">
-              Dongarra et al. (2003) documentan cómo Linux se convirtió en el estándar para HPC debido a su
-              escalabilidad y soporte para MPI (Message Passing Interface). La capacidad de personalizar el kernel
-              permite optimizaciones específicas para cargas de trabajo científicas.
-            </p>
-            <div className="bg-green-50 p-4 rounded border-l-4 border-green-500">
-              <strong>Caso Práctico: Proyecto Human Genome</strong>
-              <p className="mt-2 text-green-800">
-                El proyecto de secuenciación del genoma humano utilizó clusters Linux para procesar los datos genómicos:
-              </p>
-              <ul className="mt-2 space-y-1 text-sm text-green-700">
-                <li>• Cluster de 200 nodos con Linux procesando 3TB de datos de secuenciación</li>
-                <li>• Software de alineamiento de secuencias BWA optimizado para arquitecturas x86 en Linux</li>
-                <li>• Pipeline de análisis Genome Analysis Toolkit (GATK) ejecutándose en paralelo</li>
-                <li>• Almacenamiento distribuido con GlusterFS para acceso de alto rendimiento a los datos</li>
-              </ul>
-              <p className="mt-2 text-green-800">
-                Esta infraestructura redujo el tiempo de secuenciación de un genoma completo de 13 años (1990-2003) a
-                menos de 24 horas actualmente, revolucionando la medicina genómica y permitiendo avances como la terapia
-                génica personalizada.
-              </p>
-            </div>
           </div>
         </div>
       </div>

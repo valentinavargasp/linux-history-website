@@ -1,20 +1,19 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Shield, Zap, Palette, Heart } from "lucide-react"
+import { Shield, Zap, Palette, Heart, Subtitles } from "lucide-react"
 
 export function Advantages() {
   const advantages = [
     {
       title: "Seguridad",
       icon: <Shield className="h-8 w-8 text-blue-500" />,
-      description: "Arquitectura robusta con permisos granulares y actualizaciones constantes",
+      description: "Linux es considerado un sistema operativo más seguro que Windows debido a varias razones:",
       details: [
-        "Modelo de permisos Unix con separación de privilegios",
-        "Menor superficie de ataque comparado con sistemas monolíticos",
-        "Actualizaciones de seguridad rápidas y transparentes",
-        "Herramientas integradas como SELinux y AppArmor",
-      ],
-      example:
-        "El Centro Nacional de Ciberseguridad de Finlandia (NCSC-FI) documentó que en 2023, Linux tuvo un tiempo promedio de corrección de vulnerabilidades críticas de 25 días, comparado con 70 días en sistemas Windows. El caso específico de la vulnerabilidad CVE-2023-0386 (escalada de privilegios en el kernel) fue parcheada en menos de 48 horas tras su descubrimiento, demostrando la eficacia del modelo de desarrollo abierto.",
+        "Modelo de permisos Unix: Este modelo establece una separación entre privilegios del usuario y los del administrador (root), lo que minimiza las posibilidades de que programas maliciosos causen daños sistémicos.",
+        "Características de seguridad: A diferencia de otros sistemas operativos, estas características están integradas en el sistema desde su concepción.",
+        "Código abierto: Esto contribuye a un sistema más seguro, ya que la comunidad global de código abierto revisa constante y exhaustivamente el código fuente, identificando y eliminando vulnerabilidades rápidamente.",
+        "Defensas integradas en el kernel: El kernel de Linux cuenta con defensas de seguridad incorporadas, como cortafuegos con filtros de paquetes, mecanismos de verificación de firmware UEFI Secure Boot, opciones de configuración de Linux Kernel Lockdown y sistemas de mejora de seguridad de Control de Acceso Obligatorio (MAC) como SELinux o AppArmor.",
+      ]
+      
     },
     {
       title: "Estabilidad",
@@ -122,68 +121,6 @@ export function Advantages() {
               Pruebas de Phoronix Test Suite muestran que Linux supera a Windows en un 27% en operaciones de servidor y
               un 15% en cargas de trabajo de desarrollo, utilizando el mismo hardware (AMD Ryzen 9 5950X, 64GB RAM)
             </p>
-          </div>
-        </div>
-      </div>
-
-      <div className="bg-gradient-to-r from-blue-50 to-green-50 p-8 rounded-lg">
-        <h3 className="text-2xl font-bold mb-6 text-slate-800">Fundamentación Teórica y Comparativa</h3>
-
-        <div className="grid md:grid-cols-2 gap-8">
-          <div>
-            <h4 className="text-xl font-semibold mb-3 text-blue-800">Seguridad vs Windows</h4>
-            <p className="text-slate-700 mb-3">
-              Según Silberschatz et al. (2018), Linux implementa el principio de "menor privilegio" de manera más
-              estricta. El modelo de permisos Unix (rwx) combinado con ACLs proporciona control granular sobre recursos.
-            </p>
-            <div className="bg-white p-4 rounded border-l-4 border-blue-500">
-              <strong>Ejemplo Detallado:</strong> En 2023, la base de datos CVE registró 174 vulnerabilidades críticas
-              en Windows Server frente a 62 en Red Hat Enterprise Linux. El análisis de estas vulnerabilidades mostró
-              que el 68% de las vulnerabilidades de Windows estaban relacionadas con privilegios excesivos en
-              componentes del sistema, mientras que en Linux solo el 23% tenían esta causa. El caso específico de
-              PrintNightmare (CVE-2021-34527) en Windows demostró cómo la arquitectura monolítica con servicios
-              privilegiados puede comprometer todo el sistema, algo que el modelo de seguridad de Linux previene
-              eficazmente.
-            </div>
-          </div>
-
-          <div>
-            <h4 className="text-xl font-semibold mb-3 text-green-800">Estabilidad y Rendimiento</h4>
-            <p className="text-slate-700 mb-3">
-              Love (2010) explica que el scheduler CFS de Linux utiliza un árbol rojo-negro para garantizar O(log n) en
-              operaciones de scheduling, superior al algoritmo de Windows.
-            </p>
-            <div className="bg-white p-4 rounded border-l-4 border-green-500">
-              <strong>Ejemplo Detallado:</strong> Netflix migró su infraestructura de streaming de Windows Server a
-              Linux en 2015. Después de la migración, documentaron una reducción del 50% en el uso de CPU y un aumento
-              del 75% en la capacidad de conexiones simultáneas por servidor. El caso específico de su servicio de
-              recomendaciones mostró que el mismo algoritmo ejecutándose en Linux podía procesar 38,000 solicitudes por
-              segundo frente a 12,000 en Windows Server, utilizando el mismo hardware. Esta mejora de rendimiento les
-              permitió reducir su flota de servidores en un 30%, con el consiguiente ahorro energético y económico.
-            </div>
-          </div>
-        </div>
-
-        <div className="mt-8 bg-white p-6 rounded-lg shadow-sm">
-          <h4 className="text-xl font-semibold mb-4 text-purple-800">Impacto del Software Libre</h4>
-          <p className="text-slate-700 mb-4">
-            Stallman (2002) argumenta que el software libre no es solo una metodología de desarrollo, sino una filosofía
-            que garantiza las libertades fundamentales de los usuarios. Raymond (1999) complementa esto con el modelo
-            "catedral vs bazar", donde Linux representa el desarrollo distribuido y colaborativo.
-          </p>
-          <div className="grid md:grid-cols-3 gap-4 mt-4">
-            <div className="text-center p-4 bg-blue-50 rounded">
-              <div className="text-2xl font-bold text-blue-600">33M+</div>
-              <div className="text-sm text-slate-600">Líneas de código</div>
-            </div>
-            <div className="text-center p-4 bg-green-50 rounded">
-              <div className="text-2xl font-bold text-green-600">20K+</div>
-              <div className="text-sm text-slate-600">Contribuidores</div>
-            </div>
-            <div className="text-center p-4 bg-purple-50 rounded">
-              <div className="text-2xl font-bold text-purple-600">1000+</div>
-              <div className="text-sm text-slate-600">Distribuciones</div>
-            </div>
           </div>
         </div>
       </div>

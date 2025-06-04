@@ -107,7 +107,7 @@ export function AISection() {
         <div className="grid md:grid-cols-2 gap-8">
           <div>
             <Image
-              src="https://source.unsplash.com/random/400x300"
+              src="https://miro.medium.com/v2/resize:fit:1400/format:webp/0*mjYzf14zHLKpoGmu.png"
               alt="Jupyter Notebook interface showing machine learning code"
               width={400}
               height={300}
@@ -118,7 +118,7 @@ export function AISection() {
           </div>
           <div>
             <Image
-              src="https://source.unsplash.com/random/400x300"
+              src="https://www.servermania.com/kb/images/f_webp,q_auto:best/v1731346972/kb/Featured_349339bed6/Featured_349339bed6.png?_i=AA"
               alt="GPU cluster running deep learning training jobs"
               width={400}
               height={300}
