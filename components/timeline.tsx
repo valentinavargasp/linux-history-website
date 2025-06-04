@@ -4,13 +4,22 @@ import { Calendar, GitBranch, Users, Globe } from "lucide-react"
 export function Timeline() {
   const events = [
     {
+      year: "1984",
+      title: "Proyecto GNU",
+      description: "Richard Stallman lanza el Proyecto GNU",
+      icon: <GitBranch className="h-6 w-6" />,
+      color: "bg-yellow-500",
+      detail:
+        "En 1983, Richard Stallman (RMS) lanzó el Proyecto GNU, con la ambiciosa meta de crear un sistema operativo completamente libre, similar a Unix, al que llamó GNU. Su principal motivación era asegurar la libertad de los usuarios para ejecutar, estudiar, redistribuir y modificar el software, marcando así la fundación del movimiento del software libre y estableciendo los principios filosóficos y técnicos para tal sistema.",
+    },
+    {
       year: "1991",
       title: "Nacimiento de Linux",
       description: "Linus Torvalds anuncia el primer kernel de Linux",
       icon: <GitBranch className="h-6 w-6" />,
       color: "bg-blue-500",
       detail:
-        "El 25 de agosto de 1991, Linus Torvalds, un estudiante finlandés de 21 años, publicó en el grupo de noticias comp.os.minix: 'Estoy creando un sistema operativo (gratuito, solo un hobby, no será grande y profesional como GNU)'. Este mensaje marcó el nacimiento del kernel Linux, inicialmente compatible solo con hardware AT y discos duros IDE.",
+        "El 25 de agosto de 1991, Linus Torvalds, publicó en el grupo de noticias comp.os.minix: 'Estoy creando un sistema operativo (gratuito, solo un hobby, no será grande y profesional como GNU)'. Este mensaje marcó el nacimiento del kernel Linux, inicialmente compatible solo con hardware AT y discos duros IDE.",
     },
     {
       year: "1992",
@@ -100,69 +109,7 @@ export function Timeline() {
           ))}
         </div>
       </div>
-
-      {/* Visual timeline images */}
-      <div className="mt-16 grid md:grid-cols-3 gap-8">
-        <div className="text-center">
-          <img
-            src="https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=600&h=400&fit=crop"
-            alt="Linus Torvalds programming the first Linux kernel in 1991"
-            className="w-full h-48 object-cover rounded-lg shadow-lg mb-4"
-          />
-          <h4 className="font-semibold text-slate-800">Los Inicios (1991)</h4>
-          <p className="text-slate-600 text-sm">
-            Linus Torvalds desarrollando el primer kernel en la Universidad de Helsinki con un PC 386 y el compilador
-            GCC
-          </p>
-        </div>
-        <div className="text-center">
-          <img
-            src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop"
-            alt="Linux server room with multiple distributions running"
-            className="w-full h-48 object-cover rounded-lg shadow-lg mb-4"
-          />
-          <h4 className="font-semibold text-slate-800">Era de los Servidores (2000s)</h4>
-          <p className="text-slate-600 text-sm">
-            Centros de datos de empresas como Amazon y Google adoptando Linux para su infraestructura crítica
-          </p>
-        </div>
-        <div className="text-center">
-          <img
-            src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=400&fit=crop"
-            alt="Modern cloud infrastructure powered by Linux containers"
-            className="w-full h-48 object-cover rounded-lg shadow-lg mb-4"
-          />
-          <h4 className="font-semibold text-slate-800">Era Cloud (2010-2024)</h4>
-          <p className="text-slate-600 text-sm">
-            Kubernetes y Docker revolucionando la infraestructura cloud con tecnologías basadas en Linux
-          </p>
-        </div>
-      </div>
-
-      <div className="mt-16 bg-slate-100 p-8 rounded-lg">
-        <h3 className="text-2xl font-bold mb-4 text-slate-800">Fundamentación Teórica</h3>
-        <p className="text-slate-700 mb-4">
-          La evolución de Linux representa un paradigma único en el desarrollo de software. Según Torvalds y Diamond
-          (2001), el modelo de desarrollo distribuido de Linux demostró que "given enough eyeballs, all bugs are
-          shallow" (Ley de Linus), revolucionando la ingeniería de software.
-        </p>
-        <p className="text-slate-700 mb-4">
-          Weber (2004) analiza cómo el éxito de Linux se basa en tres pilares fundamentales: la arquitectura modular del
-          kernel, la licencia GPL que garantiza la libertad del código, y la comunidad global de desarrolladores que
-          contribuye continuamente.
-        </p>
-        <div className="bg-blue-50 p-4 rounded border-l-4 border-blue-500">
-          <h4 className="font-semibold text-blue-800">Ejemplo Concreto: Desarrollo del Kernel 2.6</h4>
-          <p className="text-blue-700">
-            El desarrollo del kernel 2.6 (2003-2004) ilustra perfectamente el modelo de desarrollo distribuido. Este
-            kernel, que introdujo el scheduler CFS, soporte para sistemas multiprocesador y mejoras en el sistema de
-            archivos, recibió contribuciones de 4,579 desarrolladores de 440 empresas diferentes. IBM contribuyó con
-            código para soporte de mainframes, mientras que pequeños desarrolladores independientes mejoraron
-            controladores específicos. Esta diversidad de contribuciones resultó en un kernel más robusto y versátil que
-            cualquier sistema operativo comercial de la época.
-          </p>
-        </div>
-      </div>
+    
     </section>
   )
 }

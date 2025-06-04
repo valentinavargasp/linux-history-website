@@ -66,7 +66,7 @@ export function Distributions() {
           </CardHeader>
           <div className="px-6 pb-4">
             <img
-              src="/images/ubuntu-desktop.png"
+              src="https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,c_fill,w_720/https://lh5.googleusercontent.com/RsKMsgPupSewjRFBatU3I7vdxNaEzN5XvMHeTrXNcKuDxlaj_wEfoffmtjdVcpdKOW7j-wyuWveXkskxltZoAzlHGTMA8jlW4DscErI6h87TOhBFrjYTt8GYEIAL8T1927KUI4JCMJSygi6wOzWVTDvFVo0sjj2ESx_sxzsKd2NgB6zPrUAzGA2G9w"
               alt="Ubuntu desktop environment with development tools"
               className="w-full h-32 object-cover rounded-lg shadow-md"
             />
@@ -126,7 +126,7 @@ export function Distributions() {
           </CardHeader>
           <div className="px-6 pb-4">
             <img
-              src="/images/mint-desktop.png"
+              src="https://www.linuxmint.com/pictures/screenshots/vanessa/thumb_cinnamon.png"
               alt="Linux Mint Cinnamon desktop with family-friendly applications"
               className="w-full h-32 object-cover rounded-lg shadow-md"
             />
@@ -222,11 +222,6 @@ export function Distributions() {
         <div className="space-y-6">
           <div className="bg-white p-6 rounded-lg shadow-sm">
             <h4 className="text-xl font-semibold mb-3 text-blue-800">Ubuntu para Desarrolladores</h4>
-            <p className="text-slate-700 mb-4">
-              Según Negus (2012), Ubuntu se ha establecido como el estándar de facto para desarrollo debido a su ciclo
-              de lanzamiento predecible y soporte empresarial de Canonical. El modelo LTS garantiza estabilidad durante
-              5 años, crucial para proyectos de largo plazo.
-            </p>
             <div className="grid md:grid-cols-2 gap-4">
               <div className="bg-blue-50 p-4 rounded border-l-4 border-blue-500">
                 <strong>Estadística:</strong> Stack Overflow Survey 2023 muestra que 55% de desarrolladores
@@ -241,11 +236,6 @@ export function Distributions() {
 
           <div className="bg-white p-6 rounded-lg shadow-sm">
             <h4 className="text-xl font-semibold mb-3 text-green-800">Linux Mint para Familias</h4>
-            <p className="text-slate-700 mb-4">
-              Lefebvre (2018) argumenta que Linux Mint representa la "democratización" de Linux para usuarios no
-              técnicos. Su filosofía de "no romper el sistema del usuario" y la interfaz Cinnamon proporcionan una
-              transición suave desde Windows.
-            </p>
             <div className="grid md:grid-cols-2 gap-4">
               <div className="bg-green-50 p-4 rounded border-l-4 border-green-500">
                 <strong>Usabilidad:</strong> Estudios de UX muestran que usuarios migran de Windows a Mint con 40% menos

@@ -26,7 +26,11 @@ export function Header() {
         </div>
 
         <p className="text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed mb-8">
-          Un análisis completo del sistema operativo que revolucionó la informática moderna
+          Sistemas Operativos 2
+        </p>
+
+        <p className="text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed mb-8">
+          Julieta Landra, Ludmila Mansilla, Ana Valentina Vargas.
         </p>
 
         {/* Linux distributions logos */}
