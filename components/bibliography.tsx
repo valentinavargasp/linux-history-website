@@ -4,53 +4,63 @@ import { BookOpen, ExternalLink } from "lucide-react"
 export function Bibliography() {
   const references = [
     {
-      category: "Computación de Alto Rendimiento",
+      category: "Fuentes de Línea de tiempo",
       items: [
-        "Dongarra, J., Sterling, T., Simon, H., & Strohmaier, E. (2003). High-Performance Computing: Clusters, Constellations, MPPs, and Future Directions. Computing in Science & Engineering, 7(2), 51-59.",
-        "Sterling, T., Anderson, M., & Brodowicz, M. (2018). High Performance Computing: Modern Systems and Practices. Morgan Kaufmann.",
-        "Reed, D. A., & Dongarra, J. (2015). Exascale computing and big data. Communications of the ACM, 58(7), 56-68.",
+        "Evolución de Linux: Cronología completa:https://tuxcare.com/es/blog/linux-evolution/",
+        "Historia de linux https://es.wikipedia.org/wiki/Historia_de_Linux",
+        "Video Historia de Linux: https://www.youtube.com/watch?v=dFAXmtLbTGI&ab_channel=DavidDwq",
+        "Material otorgado por el docente"
       ],
     },
     {
-      category: "Aplicaciones de Desarrollo Web",
+      category: "Ventajas de linux",
+      items: [
+        "General: https://nelkodev.com/blog/la-fortaleza-de-linux-seguridad-y-estabilidad-descomplicadas/?utm_source=chatgpt.com https://www.seas.es/blog/informatica/que-es-el-sistema-linux-y-cuales-son-sus-ventajas/ https://linuxsecurity.com/features/how-secure-is-linux",
+        "Entornos de escritorio: https://www.arsys.es/blog/entornos-escritorio-linux",
+        "Paquetes en linux: https://4geeks.com/es/lesson/gestion-paquetes-software-linux",
+        "Gestores de ventana: https://geekflare.com/es/linux-window-managers/",
+        "Scripts: https://www.hostinger.com/ar/tutoriales/bash-script-linux",
+        "Filosofía proyecto GNU: https://www.gnu.org/philosophy/philosophy.html",
+        "Software Libre: https://es.wikipedia.org/wiki/Software_libre_en_educaci%C3%B3n",
+        "https://chatia.app/ventajas-y-desventajas-del-software-libre-una-guia/",
+        "https://blog.hubspot.es/website/software-libre",
+        "Material otorgado por el docente",
+      ],
+    },
+    {
+      category: "Aplicaciones de Linux",
       items: [
         "https://www.sudosu.com.ar/linux/herramientas-desarrollo/",
-        ""
+        "Servidores web: https://www.cloudpanel.io/blog/linux-web-servers/#:~:text=%C2%BFQu%C3%A9%20es%20un%20servidor%20web,env%C3%ADa%20a%20su%20direcci%C3%B3n%20IP.",
+        "Lenguajes de programacion: https://es.wikipedia.org/wiki/GNU/Linux#:~:text=La%20mayor%C3%ADa%20de%20las%20distribuciones,trav%C3%A9s%20de%20un%20repositorio%20com%C3%BAn",
+        "Herramientas para ciberseguridad: https://tuxcare.com/es/blog/linux-security-tools/",
+        "Educación: https://www.linuxjournal.com/content/how-linux-revolutionizing-education-open-source-learning",
       ],
     },
     {
-      category: "Inteligencia Artificial y Machine Learning",
+      category: "Supercomputadoras",
       items: [
-        "Goodfellow, I., Bengio, Y., & Courville, A. (2016). Deep Learning. MIT Press.",
-        "Chollet, F. (2017). Deep Learning with Python. Manning Publications.",
-        "Géron, A. (2019). Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow (2nd ed.). O'Reilly Media.",
-      ],
-    },
-    {
-      category: "Desarrollo Web y Ciberseguridad",
-      items: [
-        "Gourley, D., & Totty, B. (2002). HTTP: The Definitive Guide. O'Reilly Media.",
-        "McClure, S., Scambray, J., & Kurtz, G. (2012). Hacking Exposed 7: Network Security Secrets and Solutions. McGraw-Hill Education.",
-        "Kamp, P. H., & Watson, R. N. M. (2000). Jails: Confining the omnipotent root. Proceedings of the 2nd International SANE Conference.",
+        "https://top500.org/lists/top500/2024/11/",
+        "https://www.redhat.com/en/blog/how-red-hat-enterprise-linux-powers-worlds-fastest-supercomputer-and-future-exascale-computing",
+        "https://www.linuxfoundation.org/blog/blog/20-years-of-top500-data-show-linuxs-role-in-supercomputing-breakthroughs"
       ],
     },
     {
       category: "Fuentes Estadísticas y Reportes",
       items: [
-        "Stack Overflow. (2023). Developer Survey 2023. Retrieved from https://survey.stackoverflow.co/2023/",
-        "W3Techs. (2024). Usage Statistics of Operating Systems for Websites. Retrieved from https://w3techs.com/",
-        "TOP500.org. (2024). TOP500 Supercomputer Sites. Retrieved from https://www.top500.org/",
-        "NIST. (2023). National Vulnerability Database. Retrieved from https://nvd.nist.gov/",
-        "Gartner. (2023). Market Guide for Cloud Infrastructure and Platform Services. Gartner Research.",
+        "Stack Overflow. (2023). https://survey.stackoverflow.co/2023/",
+        "W3Techs. (2024). https://w3techs.com/",
+        "TOP500.org. (2024). https://www.top500.org/",
+        "NIST. (2023). https://nvd.nist.gov/",
       ],
     },
     {
       category: "Documentación Técnica",
       items: [
-        "The Linux Kernel Archives. (2024). Retrieved from https://www.kernel.org/",
-        "GNU Operating System. (2024). Retrieved from https://www.gnu.org/",
-        "Ubuntu Documentation. (2024). Retrieved from https://help.ubuntu.com/",
-        "Red Hat Enterprise Linux Documentation. (2024). Retrieved from https://access.redhat.com/documentation/",
+        "The Linux Kernel Archives. https://www.kernel.org/",
+        "GNU Operating System. https://www.gnu.org/",
+        "Ubuntu Documentation. https://help.ubuntu.com/",
+        "Red Hat Enterprise Linux Documentation. https://access.redhat.com/documentation/",
       ],
     },
   ]
