@@ -47,7 +47,7 @@ export function Distributions() {
       <div className="text-center mb-12">
         <h2 className="text-4xl font-bold text-slate-800 mb-4">Distribuciones de Linux</h2>
         <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-          Selección especializada de distribuciones para diferentes perfiles de usuario
+          Análisis de distribuciones de Linux para diferentes perfiles de usuario:
         </p>
       </div>
 
@@ -173,102 +173,6 @@ export function Distributions() {
         </Card>
       </div>
 
-      {/* Desktop environments comparison */}
-      <div className="mb-12 bg-white p-8 rounded-lg shadow-lg">
-        <h3 className="text-2xl font-bold mb-6 text-center text-slate-800">Entornos de Escritorio Linux</h3>
-        <div className="grid md:grid-cols-4 gap-6">
-          <div className="text-center">
-            <img
-              src="/images/gnome-desktop.png"
-              alt="GNOME desktop environment screenshot"
-              className="w-full h-24 object-cover rounded-lg shadow-md mb-3"
-            />
-            <h4 className="font-semibold text-blue-600">GNOME</h4>
-            <p className="text-slate-600 text-xs">Moderno y minimalista</p>
-          </div>
-          <div className="text-center">
-            <img
-              src="/images/kde-desktop.png"
-              alt="KDE Plasma desktop environment screenshot"
-              className="w-full h-24 object-cover rounded-lg shadow-md mb-3"
-            />
-            <h4 className="font-semibold text-purple-600">KDE Plasma</h4>
-            <p className="text-slate-600 text-xs">Altamente personalizable</p>
-          </div>
-          <div className="text-center">
-            <img
-              src="/images/xfce-desktop.png"
-              alt="XFCE desktop environment screenshot"
-              className="w-full h-24 object-cover rounded-lg shadow-md mb-3"
-            />
-            <h4 className="font-semibold text-green-600">XFCE</h4>
-            <p className="text-slate-600 text-xs">Ligero y eficiente</p>
-          </div>
-          <div className="text-center">
-            <img
-              src="/images/cinnamon-desktop.png"
-              alt="Cinnamon desktop environment screenshot"
-              className="w-full h-24 object-cover rounded-lg shadow-md mb-3"
-            />
-            <h4 className="font-semibold text-orange-600">Cinnamon</h4>
-            <p className="text-slate-600 text-xs">Familiar e intuitivo</p>
-          </div>
-        </div>
-      </div>
-
-      <div className="bg-gradient-to-r from-slate-100 to-blue-50 p-8 rounded-lg">
-        <h3 className="text-2xl font-bold mb-6 text-slate-800">Justificación Teórica de las Elecciones</h3>
-
-        <div className="space-y-6">
-          <div className="bg-white p-6 rounded-lg shadow-sm">
-            <h4 className="text-xl font-semibold mb-3 text-blue-800">Ubuntu para Desarrolladores</h4>
-            <div className="grid md:grid-cols-2 gap-4">
-              <div className="bg-blue-50 p-4 rounded border-l-4 border-blue-500">
-                <strong>Estadística:</strong> Stack Overflow Survey 2023 muestra que 55% de desarrolladores
-                profesionales usan Ubuntu como distribución principal.
-              </div>
-              <div className="bg-green-50 p-4 rounded border-l-4 border-green-500">
-                <strong>Ventaja Técnica:</strong> APT + Snap permite instalar tanto software estable como versiones
-                cutting-edge de herramientas de desarrollo.
-              </div>
-            </div>
-          </div>
-
-          <div className="bg-white p-6 rounded-lg shadow-sm">
-            <h4 className="text-xl font-semibold mb-3 text-green-800">Linux Mint para Familias</h4>
-            <div className="grid md:grid-cols-2 gap-4">
-              <div className="bg-green-50 p-4 rounded border-l-4 border-green-500">
-                <strong>Usabilidad:</strong> Estudios de UX muestran que usuarios migran de Windows a Mint con 40% menos
-                tiempo de adaptación comparado con otras distribuciones.
-              </div>
-              <div className="bg-purple-50 p-4 rounded border-l-4 border-purple-500">
-                <strong>Educación:</strong> Mint incluye software educativo validado por UNESCO para enseñanza primaria
-                y secundaria.
-              </div>
-            </div>
-          </div>
-
-          <div className="bg-white p-6 rounded-lg shadow-sm">
-            <h4 className="text-xl font-semibold mb-3 text-purple-800">Alternativas Consideradas</h4>
-            <div className="space-y-3">
-              <div className="border-l-4 border-blue-500 pl-4">
-                <strong className="text-blue-800">Desarrolladores:</strong>
-                <p className="text-slate-700">
-                  Fedora (bleeding edge), Arch Linux (rolling release), Debian (máxima estabilidad). Ubuntu ofrece el
-                  mejor balance estabilidad-actualización.
-                </p>
-              </div>
-              <div className="border-l-4 border-green-500 pl-4">
-                <strong className="text-green-800">Familias:</strong>
-                <p className="text-slate-700">
-                  Zorin OS (similar a Windows), Elementary OS (similar a macOS). Mint ofrece mejor soporte multimedia y
-                  mayor estabilidad.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
   )
 }
